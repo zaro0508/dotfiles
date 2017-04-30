@@ -13,5 +13,5 @@ script:
 - ls -al ..
 - cp -rp ../dotfiles $HOME/.
 - ls -al $HOME
-- env RCRC=$HOME/dotfiles/rcrc rcup
+- env RCRC=$HOME/dotfiles/rcrc rcup -f
 - ls -al $HOME
