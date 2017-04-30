@@ -11,7 +11,7 @@ install:
 script:
 - pwd
 - ls -al ..
-- cp -rp ../travis $HOME/dotfiles
+- cp -rp ../dotfiles $HOME/.
 - ls -al $HOME
 - env RCRC=$HOME/dotfiles/rcrc rcup
 - ls -al $HOME
