@@ -1,7 +1,7 @@
-thoughtbot dotfiles
+My dotfiles
 ===================
 
-![prompt](http://images.thoughtbot.com/thoughtbot-dotfiles-prompt.png)
+My dotfiles base on [thoughtbot dotfiles](https://github.com/thoughtbot/dotfiles).
 
 Requirements
 ------------
