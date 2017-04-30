@@ -5,11 +5,13 @@ cache:
 before_install:
 - brew update
 - brew tap thoughtbot/formulae
+- export
 install:
 - brew install rcm
 script:
-- ls -al .
-- cp -rp ./dotfiles $HOME/.
+- pwd
+- ls -al ..
+- cp -rp ../travis $HOME/dotfiles
 - ls -al $HOME
 - env RCRC=$HOME/dotfiles/rcrc rcup
 - ls -al $HOME
